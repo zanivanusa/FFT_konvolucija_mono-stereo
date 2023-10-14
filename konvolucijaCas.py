@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def normaliziraj(vektor):
     if vektor.size == 0:
         print("vektor je prazen")
@@ -30,8 +29,6 @@ def konv_cas_stereo(signal, impulz):
             y[n] = y[n] + signal[k] * impulz[n - k]
     return normaliziraj(y)
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     signal = np.array([1, 2, 3, 4, 5, 6, 4, 3, 2, 1])
     impulz = np.array([1, 2, 1])
