@@ -1,5 +1,4 @@
 # FFT_konvolucija_mono-stereo
+Predstava konvolucije z FFT v stereo in mono načinu, v frekvenčnem prostoru in konvolucija v časovnem prostoru.
 
-## opis
 
-Predstava konvolucije z FFT v stereo in mono nacinu, v frekvencnem in casovnem prostoru
